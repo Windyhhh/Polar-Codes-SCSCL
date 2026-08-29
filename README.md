@@ -61,6 +61,35 @@ Polar-Codes-SCSCL/
 
 ---
 
+## 技术实现细节
+
+### 架构概览
+
+项目采用模块化设计，核心目录包括：**tests**。
+
+### 核心类与模块
+
+- **PolarConfig**
+- **PolarEncoder**
+
+### 技术栈与依赖
+
+**核心框架/库**：NumPy
+
+**主要 import**：
+```python
+import numpy as np
+from typing import List, Tuple, Optional
+import warnings
+```
+
+### 实现要点
+
+- 以 `PolarConfig` 为核心类，封装主要业务逻辑
+- 基于 NumPy 构建，技术栈成熟稳定
+- 代码结构清晰，模块间低耦合，便于扩展和维护
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
