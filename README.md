@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📡 Polar-Codes-SCSCL
+# 5G 极化码译码 | Polar-Codes-SCSCL
 
 ### 5G polar code SC/SCL/CA-SCL decoder implementations.
 
